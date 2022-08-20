@@ -23,6 +23,7 @@ public class Enrollment {
 	private Instant refundMoment;
 	
 	private boolean available;
+	
 	private boolean onlyUpdate;
 	
 	public Enrollment() {
