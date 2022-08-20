@@ -43,6 +43,7 @@ public class Offer implements Serializable{
 		this.edition = edition;
 		this.startMoment = startMoment;
 		this.endMoment = endMoment;
+		this.course = course;
 	}
 
 	public Long getId() {
@@ -84,14 +85,14 @@ public class Offer implements Serializable{
 	public void setCourse(Course course) {
 		this.course = course;
 	}
+	
+	public List<Resource> getResources() {
+		return resources;
+	}
 
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
-	}
-
-	public List<Resource> getResources() {
-		return resources;
 	}
 	
 	@Override
