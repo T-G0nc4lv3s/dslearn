@@ -42,7 +42,6 @@ public abstract class Lesson implements Serializable {
 			@JoinColumn(name = "offer_id")
 			}
 	)
-
 	private Set<Enrollment> enrollmentsDone;
 
 	public Lesson() {
