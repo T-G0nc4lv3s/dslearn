@@ -80,6 +80,5 @@ public class AutorizationServerConfig extends AuthorizationServerConfigurerAdapt
 		.tokenEnhancer(chaim)
 		.userDetailsService(userDetailsService);
 	}
-
 	
 }
